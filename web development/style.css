@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto',serif;
+    color: rgb(63, 64, 68);
+}
+.offset::before{
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+}
+/*navigation*/
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(12, 11, 11, 0.952) !important;
+    cursor: pointer;
+}
+.nav-brand img{
+height: 5.2rem;
+}
+.navbar-nav li {
+    padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(35, 88, 168);
+}
+/*landing page*/
+.home-inner{
+    background-image: url(img/nathan-anderson-iYO-EGosrCo-unsplash.jpg);
+}
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+.caption h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+.caption h3{
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+}
+/*skills section*/
+.narrow{
+    width: 75%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+}
+.narrow h1{
+    font-size: 2.4rem;
+}
+.btn-secondary{
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: .6rem 1.2rem;
+    margin: 1rem;
+    color: white;
+    background-color: rgb(35, 88, 168);
+    border-color: rgb(35, 88, 168);
+}
+.btn-secondary:hover{
+    background-color: grey;
+    border-color: honeydew;
+}
+/*feature section*/
+.jumbotron{
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+}
+h3.heading{
+font-size: 1.9rem;
+font-weight: 700;
+text-transform: uppercase;
+}
+.heading-underline{
+     width: 3rem;
+     height: .2rem;
+     background-color: rgb(35, 88, 168);
+     margin: 0 auto 2rem;
+}
+.feature svg.svg-inline--fa{
+    color: rgb(35, 88, 168);
+}
+.feature h3{
+   font-size: 1.3rem;
+   text-transform: uppercase;
+   text-transform: uppercase;
+}
+.feature p{
+  font-size: 1.1rem;
+}
+/*resource section*/
+.fixed{
+    background-image: url(img/webdeveloper.jpg);
+    z-index:-1;
+}
+.dark{
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    padding: 7rem 2rem;
+}
+.fixed-background h3{
+ margin-bottom: 2rem;
+}
+.fixed-background p{
+  margin-top: 1.5rem;
+}
+/* clients section*/
+.clients img{
+    width: 100%;
+    border-radius: 50%;
+}
+blockquote .svg-inline--fa{
+    color: rgb(35, 88, 168);
+    margin: 1rem;
+}
+.clients-hr{
+    border-top: .05rem solid rgb(35, 88, 168);
+}
+/*contact section*/
+footer{
+    background-color: rgb(23, 26, 23);
+    color: white;
+    padding: 2rem 0 2rem;
+    padding-top: 1rem;
+}
+footer img{
+    height: 7rem;
+    width: 9rem;
+    margin: 1.5rem 0;
+}
+footer a{
+    color: white;
+}
+footer svg.svg-inline--fa{
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline--fa:hover{
+    color: rgb(35, 88, 168)!important;
+} 
+hr.socket{
+    width: 100%;
+    border-top: .2rem solid rgb(35, 88, 168);
+    margin-top: 3;
+}
+/*article*/
+.heading{
+    margin-top: 120px;
+}
+.heading img{
+    margin-top: 10px;
+}
+.article p{
+    font-size: 20px;
+    margin-top: 36px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contents1{
+    background-color: rgb(228, 228, 228);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.contents1 h2{
+    margin-left: 25px;
+}
+.contents1 a{
+color: black;
+font-size: 20px;
+}
+.header h2{
+    text-align: center;
+    font-weight: 800;
+}
+.header li{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.motivation{
+    margin-top: 110px;
+}
+.motivation img{
+    width: 50%;
+    margin-top: 10px;
+}
+.motivation p{
+    font-size: 20px;
+    margin-top: 36px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.motivation h4{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.head{
+    margin-top: 110px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+}
+.light{
+    margin-left: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 20px;
+    color: darkgray;
+}
+.para{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 20px;
+}
+.yon{
+font-size: 25px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 14%;
+}
+.tip{
+    font-size: 19px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 14%;
+}
+.slide h3{
+    margin-top: 110px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.slide p{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: darkgray;
+    margin-left: 30px;
+}
+.one p{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 20px;
+}
+.one h5{
+margin-left: 14%;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 26px;
+font-family: sans-serif;
+}
+.one img{
+    margin-left: 14%;
+}
+.modern h4{
+    margin-top: 110px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+}
+.modern p{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 0 14% 10px 14%;
+    color: rgb(83, 83, 83);
+}
+.modern h5{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 14%;
+}
+.modern img{
+    margin-left: 14%;
+    width: 700px;
+}
+.modern li{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 0 14% 10px 14%;
+    color: rgb(160, 156, 156);
+}
+.build h4{
+    margin-top: 110px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.build h5{
+    font-weight: 800;
+    color: black;
+    margin-left: 14%;
+    font-family: sans-serif;
+}
+.build p{
+    margin: 0 14% 18px 14%;
+}
+.measure1 h5{
+    margin-top: 110px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+}
+.measure1 .pee{
+    text-align: center;
+    color: rgba(90, 89, 86, 0.603);
+    font-size: 17;
+}
+.prevent p{
+    margin: 0 14% 0 14%;
+    font-family: sans-serif;
+   
+}
+.prevent h6{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+/*media queries*/
+@media (max-width: 767px){
+    .caption h1{
+        font-size: 2.3rem;
+        letter-spacing: .15rem;
+        padding-bottom: .5rem;
+    }
+    .caption h3{
+        font-size: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+    .btn-lg{
+        padding: .5rem 1rem;
+        font-size: 1rem;
+    }
+    .narrow h1
+    {
+        font-size: 1.5rem;
+    }
+    .clients img{
+        max-width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    .heading img{
+        max-width: 50%;
+    }
+    .motivation img{
+        max-width: 50%;
+    }
+    .one img{
+        max-width: 65%;
+    }
+    .modern img{
+        max-width: 70%;
+    }
+    .measure1 img{
+max-width: 50%;
+    }
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
